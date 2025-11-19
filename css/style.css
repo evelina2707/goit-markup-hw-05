@@ -849,11 +849,12 @@ font-weight: 400;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
-.policy-checkbox:checked+.policy-label>.custom-checkbox {
-  fill: #F4F4FD;
+.visually-hidden:checked+label .custom-checkbox {
+ fill: #F4F4FD;
   background-color: #404bbf;
-  border: none;
-}
+  border: none; 
+}  
+
 
 .click {
 
