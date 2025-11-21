@@ -668,9 +668,9 @@ font-weight: 400;
 }
 
 .is-open {
-  opacity: 0;
-  user-select: none;
-  pointer-events: none;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .modal {
@@ -767,7 +767,7 @@ font-weight: 400;
 }
 
 .input-field:focus {
-  border-bottom: #4D5AE5;
+  border-color: #4D5AE5;
   outline: none;
 }
 
